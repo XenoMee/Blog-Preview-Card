@@ -45,6 +45,11 @@ main{
     margin-bottom: 1rem;
 }
 
+.card-date{
+    font-size: .8rem;
+    margin-bottom: .5rem;
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
