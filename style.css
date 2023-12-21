@@ -57,13 +57,19 @@ main{
 .card-description{
     color:hsla(0, 0%, 50%, .8);
     font-size: .85rem;
-    margin-bottom: 0;
+    margin-bottom: 1.5rem;
 }
 
 .card-author{
     display: flex;
     align-items: center;
     gap: 1rem;
+}
+
+.author-profile-image{
+    max-width: 2rem;
+    border-radius: 50%;
+    object-fit: cover;
 }
 
 .author-name{
