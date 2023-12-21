@@ -23,6 +23,13 @@ main{
     background-color: white;
 }
 
+.main-image{
+    display: block;
+    max-width: 100%;
+    border-radius: .5rem;
+    object-fit: cover;
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
