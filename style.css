@@ -1,85 +1,88 @@
-@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@600;800&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Figtree:wght@600;800&display=swap");
 
-*, *::after, *::before{
-    box-sizing: border-box;
-    margin-top: 0;
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  margin-top: 0;
 }
 
-body{
-    margin: 0;
-    background-color: hsl(47, 88%, 63%);
-    line-height: 1.5;
-    font-family: 'Figtree', sans-serif;
+body {
+  margin: 0;
+  background-color: hsl(47, 88%, 63%);
+  line-height: 1.5;
+  font-family: "Figtree", sans-serif;
 }
 
-main{
-    min-height: 100svh;
-    display: grid;
-    place-items: center;
+main {
+  min-height: 100svh;
+  display: grid;
+  place-items: center;
 }
 
-.container{
-    max-width: 20rem;
-    background-color: white;
-    padding: 1.5rem;
-    border-radius: 1.5rem;
-    border: .1rem solid black;
-    box-shadow: .5rem .5rem rgba(0, 0, 0, .9);
+.container {
+  max-width: 20rem;
+  background-color: white;
+  padding: 1.5rem;
+  border-radius: 1.5rem;
+  border: 0.1rem solid black;
+  box-shadow: 0.5rem 0.5rem rgba(0, 0, 0, 0.9);
 }
 
-.main-image{
-    display: block;
-    max-width: 100%;
-    border-radius: .5rem;
-    object-fit: cover;
-    margin-bottom: 1.5rem;
+.main-image {
+  display: block;
+  max-width: 100%;
+  border-radius: 0.5rem;
+  object-fit: cover;
+  margin-bottom: 1.5rem;
 }
 
-.card-tag{
-    padding: .3em .7em;
-    background-color: hsl(47, 88%, 63%);
-    font-family: 'Figtree', sans-serif;
-    border-color: transparent;
-    border-radius: .3rem;
-    font-weight: 800;
-    margin-bottom: .7rem;
+.card-tag {
+  padding: 0.3em 0.7em;
+  background-color: hsl(47, 88%, 63%);
+  font-family: "Figtree", sans-serif;
+  border-color: transparent;
+  border-radius: 0.3rem;
+  font-weight: 800;
+  margin-bottom: 0.7rem;
 }
 
-.card-date{
-    font-size: .8rem;
-    margin-bottom: 1rem;
+.card-date {
+  font-size: 0.8rem;
+  margin-bottom: 1rem;
 }
 
-.card-title{
-    font-size: 1.2rem;
+.card-title {
+  font-size: 1.2rem;
 }
 
-.card-description{
-    color:hsla(0, 0%, 50%, .8);
-    font-size: .85rem;
-    margin-bottom: 1.5rem;
+.card-description {
+  color: hsla(0, 0%, 50%, 0.8);
+  font-size: 0.85rem;
+  margin-bottom: 1.5rem;
 }
 
-.card-author{
-    display: flex;
-    align-items: center;
-    gap: 1rem;
+.card-author {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
 }
 
-.author-profile-image{
-    max-width: 2rem;
-    border-radius: 50%;
-    object-fit: cover;
+.author-profile-image {
+  max-width: 2rem;
+  border-radius: 50%;
+  object-fit: cover;
 }
 
-.author-name{
-    margin-bottom: 0;
+.author-name {
+  margin-bottom: 0;
 }
 
 .attribution {
-  font-size: 11px;
+  color: white;
+  font-size: 0.8rem;
   text-align: center;
 }
 .attribution a {
-  color: hsl(228, 45%, 44%);
+  color: black;
 }
