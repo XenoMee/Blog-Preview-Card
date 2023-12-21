@@ -91,5 +91,9 @@ main {
     .container{
         max-width: 25rem;
     }
+    
+    .main-image{
+        width: 100%;
+    }
 
 }
