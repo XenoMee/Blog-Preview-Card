@@ -96,4 +96,24 @@ main {
         width: 100%;
     }
 
+    .card-date{
+        font-size: .9rem;
+    }
+
+    .card-title{
+        font-size: 1.4rem;
+    }
+
+    .card-description{
+        font-size: 1rem;
+    }
+
+    .author-profile-image{
+        max-width: 2.5rem;
+    }
+
+    .author-name{
+        font-size: 1.1rem;
+    }
+
 }
