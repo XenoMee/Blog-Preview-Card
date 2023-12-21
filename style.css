@@ -104,6 +104,11 @@ main {
         font-size: 1.4rem;
     }
 
+    .card-title:active{
+        cursor: pointer;
+        color: hsl(47, 88%, 63%);
+    }
+
     .card-description{
         font-size: 1rem;
     }
@@ -115,5 +120,7 @@ main {
     .author-name{
         font-size: 1.1rem;
     }
+
+
 
 }
