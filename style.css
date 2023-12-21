@@ -12,6 +12,12 @@ body{
     font-family: 'Figtree', sans-serif;
 }
 
+main{
+    min-height: 100svh;
+    display: grid;
+    place-items: center;
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
