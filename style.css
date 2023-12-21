@@ -1,5 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@600;800&display=swap');
+
 *, *::after, *::before{
     box-sizing: border-box;
+    margin-top: 0;
+}
+
+body{
+    margin: 0;
+    background-color: hsl(47, 88%, 63%);
+    line-height: 1.5;
+    font-family: 'Figtree', sans-serif;
 }
 
 .attribution {
