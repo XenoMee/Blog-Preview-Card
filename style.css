@@ -54,6 +54,12 @@ main{
     font-size: 1.2rem;
 }
 
+.card-description{
+    color:hsla(0, 0%, 50%, .8);
+    font-size: .85rem;
+    margin-bottom: 0;
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
