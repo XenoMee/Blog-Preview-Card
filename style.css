@@ -18,6 +18,11 @@ main{
     place-items: center;
 }
 
+.container{
+    max-width: 20rem;
+    background-color: white;
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
