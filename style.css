@@ -83,46 +83,7 @@ main {
 /* Utility classes */
 
 .has-flex{
-  display: flex;
+  display: inline-flex;
   align-items: center;
   gap: 1rem;
-}
-
-@media (min-width: 768px) {
-    .container{
-        max-width: 25rem;
-    }
-    
-    .main-image{
-        width: 100%;
-    }
-
-    .card-tag{
-        font-size: 1rem;
-    }
-
-    .card-date{
-        font-size: .9rem;
-    }
-
-    .card-title{
-        font-size: 1.5rem;
-    }
-
-    .card-title:active{
-        cursor: pointer;
-        color: hsl(47, 88%, 63%);
-    }
-
-    .card-description{
-        font-size: 1rem;
-    }
-
-    .author-profile-image{
-        max-width: 2.5rem;
-    }
-
-    .author-name{
-        font-size: 1rem;
-    }
 }
