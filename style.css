@@ -2,17 +2,15 @@
 
 
 :root{
-
   --clr-primary-600: hsl(47, 88%, 63%);
-  --clr-secondary-100: hsl(0,0,100%);
+  --clr-secondary-100: hsl(0, 0%, 100%);
   --clr-accent-500: hsl(0, 0%, 50%);
-  --clr-accent-900: hsl(0,0,7%);
+  --clr-accent-900: hsl(0,0%,7%);
 
   --ff-base: "Figtree", sans-serif;
 
   --fw-regular: 600;
   --fw-bold: 800;
-
 }
 
 /* intuitive box-sizing model */
@@ -56,10 +54,11 @@ body {
 }
 
 /* Blog card styling */
-
 .blog-card {
+  /* --content-spacing: 1rem; */
+
   max-width: 20rem;
-  background-color: white;
+  background-color: var(--clr-secondary-100);
   padding: 1.5rem;
   border-radius: 1.5rem;
   border: 0.1rem solid black;
