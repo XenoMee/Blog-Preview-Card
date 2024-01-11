@@ -20,6 +20,8 @@ main {
   place-items: center;
 }
 
+/* Blog card styling */
+
 .blog-card {
   max-width: 20rem;
   background-color: white;
@@ -68,7 +70,7 @@ main {
   gap: 1rem;
 }
 
-.author-profile-image {
+.author-profile-picture {
   max-width: 2rem;
   border-radius: 50%;
   object-fit: cover;
@@ -76,6 +78,14 @@ main {
 
 .author-name {
   margin-bottom: 0;
+}
+
+/* Utility classes */
+
+.has-flex{
+  display: flex;
+  align-items: center;
+  gap: 1rem;
 }
 
 @media (min-width: 768px) {
