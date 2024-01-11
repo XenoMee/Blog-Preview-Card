@@ -125,6 +125,7 @@ body {
 .author-name{
   color: var(--clr-accent-900);
   font-weight: var(--fw-bold);
+  font-size: .9rem;
 }
 
 /* Utility classes */
