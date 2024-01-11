@@ -98,8 +98,9 @@ body {
 }
 
 .blog-card__text {
-  color: hsla(0, 0%, 50%, 0.8);
+  color: var(--clr-accent-500);
   font-size: 0.85rem;
+  opacity: .8;
 }
 
 .author-profile-picture {
