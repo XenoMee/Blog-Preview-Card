@@ -78,15 +78,6 @@ main {
   margin-bottom: 0;
 }
 
-.attribution {
-  color: white;
-  font-size: 0.8rem;
-  text-align: center;
-}
-.attribution a {
-  color: black;
-}
-
 @media (min-width: 768px) {
     .container{
         max-width: 25rem;
@@ -124,7 +115,4 @@ main {
     .author-name{
         font-size: 1rem;
     }
-
-
-
 }
