@@ -20,7 +20,7 @@ main {
   place-items: center;
 }
 
-.container {
+.blog-card {
   max-width: 20rem;
   background-color: white;
   padding: 1.5rem;
