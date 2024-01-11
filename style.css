@@ -113,10 +113,6 @@ body {
   object-fit: cover;
 }
 
-.author-name {
-  margin-bottom: 0;
-}
-
 /* Utility classes */
 
 .has-flex{
