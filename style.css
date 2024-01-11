@@ -103,6 +103,10 @@ body {
   opacity: .8;
 }
 
+.blog-card__author{
+  margin-top: .5rem;
+}
+
 .author-profile-picture {
   max-width: 2rem;
   border-radius: 50%;
