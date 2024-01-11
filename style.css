@@ -122,8 +122,9 @@ body {
   object-fit: cover;
 }
 
-.author_name{
+.author-name{
   color: var(--clr-accent-900);
+  font-weight: var(--fw-bold);
 }
 
 /* Utility classes */
