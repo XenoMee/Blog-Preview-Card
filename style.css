@@ -55,7 +55,7 @@ body {
 
 /* Blog card styling */
 .blog-card {
-  /* --content-spacing: 1rem; */
+  --content-spacing: 1rem;
 
   max-width: 20rem;
   background-color: var(--clr-secondary-100);
